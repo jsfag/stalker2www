@@ -1,0 +1,102 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3581179, 2018-05-15T14:20:12-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Boycott by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/boycott/regular/
+ * Copyright: Copyright (c) Ryoichi Tsunekawa, 2006. All rights reserved.
+ * Licensed pageviews: 2,000,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3581179
+ * 
+ * � 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work 
+      .logotext2 {
+    font-family: 'Boycott';
+	font-size: 5vw;
+    line-height: 0px;
+	color: #ffff; 
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 75vh;
+	left: 50%;
+   }
+*/
+@import url("//hello.myfonts.net/count/36a4fb");
+
+@font-face {font-family: 'Boycott';src: url('/static/../../css/webfonts/36A4FB_0_0.eot');src: url('/static/../../css/webfonts/36A4FB_0_0.eot?#iefix') format('embedded-opentype'),url('/static/../../css/webfonts/36A4FB_0_0.woff2') format('woff2'),url('/static/../../css/webfonts/36A4FB_0_0.woff') format('woff'),url('/static/../../css/webfonts/36A4FB_0_0.ttf') format('truetype');}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: inherit;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #151515 url(https://static.stalker-online.com/img/background.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-height: 100%;
+  font-family: 'Boycott', sans-serif;
+  /* font-size: 5vmax; */
+  font-size: 9vmin;
+  align-items: center;
+  justify-items: center;
+}
+  #logo {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    min-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #ffffff;
+    cursor: default;
+  }
+  #logo h1 {
+    color: #d3d3d3;
+  }
+  #email {
+    color: #3b3b3b;
+    padding: 6px;
+    /* padding-bottom: 42px; */
+    font-size: 6vmin;
+    cursor: pointer;
+
+    /* display: flex; */
+    /* background-color: #15151580; */
+    /* min-width: 100%; */
+    /* justify-content: center; */
+  }
+  #email:hover {
+    color: #d3d3d3;
+  }
+    #email a {
+      /* text-shadow: 2px 1px 0 #ffffff90; */
+    }
